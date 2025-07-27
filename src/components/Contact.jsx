@@ -52,7 +52,7 @@ const Contact = () => {
             <input
               type="text"
               name="from_name"
-              placeholder="Name"
+              placeholder="Nom"
               required
               className="border border-slate-600 p-3 rounded"
             />
@@ -60,7 +60,7 @@ const Contact = () => {
               type="email"
               name="user_email"
               pattern="[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{1,63}$"
-              placeholder="Email Id"
+              placeholder="Email"
               required
               className="border border-slate-600 p-3 rounded"
             />
@@ -74,7 +74,7 @@ const Contact = () => {
               className="btn self-start
             bg-white text-dark_primary"
             >
-              Submit
+              Envoi
             </button>
           </form>
           <div className="flex-1 flex flex-col gap-5">

@@ -1,38 +1,30 @@
 // import images
 import Hero_person from "./assets/images/Hero/person.png";
 
-import figma from "./assets/images/Skills/figma.png";
-import sketch from "./assets/images/Skills/sketch.png";
-import ps from "./assets/images/Skills/ps.png";
+import html from "./assets/images/Skills/html.png";
+import css from "./assets/images/Skills/css.png";
+import javascript from "./assets/images/Skills/javascript.png";
 import reactjs from "./assets/images/Skills/react.png";
 import nodejs from "./assets/images/Skills/node.png";
-import python from "./assets/images/Skills/python.png";
 
 import services_logo1 from "./assets/images/Services/logo1.png";
 import services_logo2 from "./assets/images/Services/logo2.png";
 import services_logo3 from "./assets/images/Services/logo3.png";
 
-import project1 from "./assets/images/projects/img1.png";
-import project2 from "./assets/images/projects/img2.png";
-import project3 from "./assets/images/projects/img3.png";
-import person_project from "./assets/images/projects/person.png";
-
-import avatar1 from "./assets/images/Testimonials/avatar1.png";
-import avatar2 from "./assets/images/Testimonials/avatar2.png";
-import avatar3 from "./assets/images/Testimonials/avatar3.png";
-import avatar4 from "./assets/images/Testimonials/avatar4.png";
+import project1 from "./assets/images/Projects/img1.png";
+import project2 from "./assets/images/Projects/img2.png";
+import project3 from "./assets/images/Projects/img3.png";
+import person_project from "./assets/images/Projects/person.png";
 
 import Hireme_person from "./assets/images/Hireme/person.png";
 import Hireme_person2 from "./assets/images/Hireme/person2.png";
 
 // import icons from react-icons
 import { GrMail } from "react-icons/gr";
-import { MdArrowForward, MdCall } from "react-icons/md";
-import { BsInstagram } from "react-icons/bs";
+import { MdArrowForward, MdOutlinePermContactCalendar } from "react-icons/md";
 import { TbSmartHome } from "react-icons/tb";
 import { BiUser } from "react-icons/bi";
 import { RiServiceLine, RiProjectorLine } from "react-icons/ri";
-import { MdOutlinePermContactCalendar } from "react-icons/md";
 
 export const content = {
   nav: [
@@ -59,82 +51,77 @@ export const content = {
   ],
   hero: {
     title: "Web Developer",
-    firstName: "JOHN",
-    LastName: "ALEX",
-    btnText: "Hire Me",
+    firstName: "SEE",
+    LastName: "RAWIER",
+    btnText: "Contactez-Moi",
     image: Hero_person,
     hero_content: [
       {
-        count: "8+",
-        text: "Years of Experinse in Web development",
+        count: "1",
+        text: "an d'expérience de Web développeur",
       },
       {
-        count: "20+",
-        text: "Projects Worked in my career",
+        count: "100%",
+        text: "Motivé",
       },
     ],
   },
   skills: {
-    title: "Skills",
-    subtitle: "MY TOP SKILLS",
+    title: "Compétences",
+    subtitle: "Mon top 5",
     skills_content: [
       {
-        name: "Figma",
-        para: "Lorem ipsum text  dummy",
-        logo: figma,
+        name: "HTML",
+        para: "Maîtrise des balises et de la structure sémantique.",
+        logo: html,
       },
       {
-        name: "Node js",
-        para: "Lorem ipsum text  dummy",
-        logo: nodejs,
+        name: "CSS",
+        para: "Stylisation avancée, animations et responsive.",
+        logo: css,
       },
       {
-        name: "Adobe Photoshop",
-        para: "Lorem ipsum text  dummy",
-        logo: ps,
+        name: "JavaScript",
+        para: "Web interactif, manipulation du DOM, appels API et logique front-end.",
+        logo: javascript,
       },
       {
-        name: "React js",
-        para: "Lorem ipsum text  dummy",
+        name: "React JS",
+        para: "Interfaces utilisateurs dynamiques avec composants réutilisables.",
         logo: reactjs,
       },
       {
-        name: "Sketch",
-        para: "Lorem ipsum text  dummy",
-        logo: sketch,
-      },
-      {
-        name: "Python",
-        para: "Lorem ipsum text  dummy",
-        logo: python,
+        name: "Node.js",
+        para: "Exécution JavaScript côté serveur, idéal pour les API, services back-end et apps temps réel.",
+        logo: nodejs,
       },
     ],
     icon: MdArrowForward,
   },
   services: {
     title: "Services",
-    subtitle: "WHAT I OFFER",
+    subtitle: "Champ d'action",
     service_content: [
       {
-        title: "Web Development",
-        para: "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document elying on mean",
+        title: "Fullstack",
+        para: "Développement complet de sites et applications web, de l’interface utilisateur (frontend) à la logique serveur (backend).",
         logo: services_logo1,
       },
       {
-        title: "ui / ux DESIGNING",
-        para: "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document elying on mean",
+        title: "Gestion d'équipes",
+        para: "Expérience en coordination de développeurs, répartition des tâches, suivi des livrables et motivation collective dans des projets agiles.",
         logo: services_logo2,
       },
       {
-        title: "PhotoShop Editing",
-        para: "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document elying on mean",
+        title: "Veille technologique",
+        para: "Surveillance continue des tendances web, nouveaux frameworks, outils DevOps et bonnes pratiques pour rester à jour dans un secteur en constante évolution.",
         logo: services_logo3,
       },
     ],
   },
-  Projects: {
-    title: "Projects",
-    subtitle: "MY CREATION",
+  projects: {
+    title: "Projets",
+    subtitle: "Mes Créations",
     image: person_project,
     project_content: [
       {
@@ -151,62 +138,21 @@ export const content = {
       },
     ],
   },
-  Testimonials: {
-    title: "Testimonials",
-    subtitle: "MY CLIENT REVIEWS",
-    testimonials_content: [
-      {
-        review:
-          "“In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstra”",
-        img: avatar1,
-        name: "JOHN DOE",
-      },
-      {
-        review:
-          "“In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstra”",
-        img: avatar2,
-        name: "Tom Alex",
-      },
-      {
-        review:
-          "“In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstra”",
-        img: avatar3,
-        name: "Johnny",
-      },
-      {
-        review:
-          "“In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstra”",
-        img: avatar4,
-        name: "ROBBIN",
-      },
-    ],
-  },
   Hireme: {
-    title: "Hire Me",
-    subtitle: "FOR YOUR PROJECTS",
+    title: "Contactez-moi",
+    subtitle: "POUR TOUS VOS PROJETS",
     image1: Hireme_person,
     image2: Hireme_person2,
-    para: "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document elying on mean",
+    para: "Pour vos projets web, besoins en encadrement technique ou suivi des dernières innovations, je vous propose un accompagnement complet, moderne et sur mesure.",
     btnText: "Hire Me",
   },
   Contact: {
-    title: "Contect Me",
-    subtitle: "GET IN TOUCH",
+    title: "Contactez-moi",
     social_media: [
       {
-        text: "codeaprogram@gmail.com",
+        text: "seeraiwer@mail.com",
         icon: GrMail,
-        link: "mailto:codeaprogram@gmail.com",
-      },
-      {
-        text: "+91 1234 56778",
-        icon: MdCall,
-        link: "https://wa.me/1234567890",
-      },
-      {
-        text: "codeaprogram",
-        icon: BsInstagram,
-        link: "https://www.instagram.com/codeaprogram/",
+        link: "mailto:seeraiwer@mail.com",
       },
     ],
   },

@@ -11,19 +11,22 @@ module.exports = {
       center: true,
       padding: "4rem",
     },
-    extend: {
-      colors: {
-        dark_primary: "#06223F",
-        bg_light_primary: "#F5F9FD",
-        gray: "#B7C5D3",
-      },
-      backgroundImage: {
-        primaryLinear: "linear-gradient(180deg, #B6CCF5 0.48%, #D5E3F1 100%)",
-      },
-      dropShadow: {
-        primary: "-5px 35px 40px rgba(223, 229, 236, 0.9)",
-      },
-    },
+extend: {
+  colors: {
+    dark_primary: "#1E1E1E",
+    bg_light_primary: "#2C2C2C",
+    accent: "#FF7847",
+    gray_custom: "#B7B7B7",
+    slate_text: "#F5F5F5",
+  },
+  backgroundImage: {
+    primaryLinear: "linear-gradient(180deg, #2C2C2C 0%, #1E1E1E 100%)",
+  },
+  dropShadow: {
+    primary: "-5px 35px 40px rgba(0, 0, 0, 0.6)",
+  },
+},
+
   },
   plugins: [],
 };
